@@ -68,6 +68,7 @@ function Game() {
       <div className={styles.choices}>
         {CHOICES.map((choice) => (
           <button
+            className={styles.button}
             key={choice.name}
             onClick={() => handlePlayerChoice(choice)}
             aria-label={choice.name}
@@ -87,7 +88,7 @@ function Game() {
             <p style={nameStyles}>The computer chose {codeyChoice.name}</p>
           </div>
           <h2 style={resultStyle}>{result}</h2>
-          <button onClick={resetGame}>Play again</button>
+          <button className={styles.button} onClick={resetGame}>Play again</button>
         </div>
       )}
     </div>
