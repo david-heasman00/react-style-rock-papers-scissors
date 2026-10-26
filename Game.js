@@ -6,6 +6,12 @@ const CHOICES = [
   { name: "scissors", emoji: "✌️" },
 ];
 
+// Task 2 - create object variable for styling
+const choicesStyles = {
+  display: 'flex',
+  alignItems: 'center',
+  marginBottom: 40
+}
 
 function Game() {
   const [playerChoice, setPlayerChoice] = useState(null);
