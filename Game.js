@@ -13,6 +13,12 @@ const choicesStyles = {
   marginBottom: 40
 }
 
+//Task 3 - object variable for emoji styling
+const emojiStyles = {
+  fontSize: 64,        //You can pass px values as numbers
+  marginRight: '20px'  //Or as strings with px at the end
+}
+
 function Game() {
   const [playerChoice, setPlayerChoice] = useState(null);
   const [codeyChoice, setCodeyChoice] = useState(null);
