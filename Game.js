@@ -19,6 +19,13 @@ const emojiStyles = {
   marginRight: '20px'  //Or as strings with px at the end
 }
 
+//Task 4 - object variable for nameStyles
+const nameStyles = {
+  margin: 0,
+  fontSize: 24,
+  color: '#ffff'
+}
+
 function Game() {
   const [playerChoice, setPlayerChoice] = useState(null);
   const [codeyChoice, setCodeyChoice] = useState(null);
